@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_marginTop="5sp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:src="@drawable/billu_pic"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+
+    <TextView
+
+        android:textColor="#787878"
+        android:textSize="12sp"
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Akash"
+        android:gravity="center_horizontal"
+     />
+
+
+    <Button
+        android:id ="@+id/add_friend_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Friend"
+        android:background="@drawable/button_bg_rounded_corners"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+
+
+
+</LinearLayout>

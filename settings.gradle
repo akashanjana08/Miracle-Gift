@@ -1,0 +1,1 @@
+include ':app', ':facebook', ':picasso-2.5.2', ':euclidlibrary'

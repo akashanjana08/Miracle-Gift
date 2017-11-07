@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/action_search"-->
+        <!--android:title="Search"-->
+        <!--android:icon="@mipmap/add_friend_suggest"-->
+        <!--app:showAsAction="always|collapseActionView"-->
+        <!--app:actionViewClass="android.support.v7.widget.SearchView"-->
+      <!--/>-->
+
+
+    <item android:id="@+id/filter_cust_view"
+        android:title="filter"
+        app:showAsAction="always"
+        app:actionLayout="@layout/badge_layout"
+
+        />
+
+
+
+    <item android:id="@+id/map_cust_view"
+        android:title="Search"
+        android:icon="@mipmap/ic_mic_white_24dp"
+        app:showAsAction="always|collapseActionView"
+
+        />
+
+
+</menu>
